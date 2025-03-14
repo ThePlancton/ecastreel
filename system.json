@@ -1,0 +1,63 @@
+{
+  "id": "cof",
+  "title": "Ecastreel",
+  "description": "<p>Système Foundry VTT pour <a href='https://www.black-book-editions.fr/catalogue.php?id=477'>Chroniques Oubliées Fantasy</a>.</p><p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'>https://discord.gg/pPSDNJk</a></p>",
+  "version": "12.331.4",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "authors": [
+    {
+      "name": "Zigmund"
+    },
+    {
+      "name": "Kristov"
+    },
+    {
+      "name": "Eryan"
+    },
+    {
+      "name": "Lemeran81"
+    }
+  ],
+  "esmodules": [
+    "module/cof.js"
+  ],
+  "styles": [
+    "./css/cof.css"
+  ],
+  "packs": [
+    {
+      "name": "macros",
+      "label": "Macros",
+      "system": "cof",
+      "path": "./packs/macros.db",
+      "type": "Macro",
+      "tag" : "macro"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "socket": true,
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "attributes.hp",
+  "secondaryTokenAttribute": null,
+  "url": "https://github.com/ZigmundKreud/cof",
+  "manifest": "https://github.com/ZigmundKreud/cof/releases/latest/download/system.json",
+  "download": "https://github.com/ZigmundKreud/cof/releases/download/12.331.4/system.zip"
+}
